@@ -80,11 +80,6 @@ var religion = [
 //Instantiation of new Human = Jamie 
 Jamie = new Human(nationality[0], eyeColor[0], 189 + "cm" , 90 + "kg" ,favSport[1], favFood[12],religion[0]);
 
-Jamie.prototype = {
-    jump: function() {
-		console.log("Prototype method 'jump' works");
-    }
-},
 //Calling functions
 Jamie.speak();
 Jamie.walk();
