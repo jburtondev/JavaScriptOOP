@@ -1,4 +1,5 @@
-//Defining the food classvar Human = function (nationality, eyeColor, height, weight, favSport, favFood, religion) {
+//Constructor function for 'Human'
+var Human = function (nationality, eyeColor, height, weight, favSport, favFood, religion) {
     this.nationality = nationality; 
     this.eyeColor = eyeColor;
     this.height = height; 
@@ -24,6 +25,9 @@ Human.prototype = {
         alert("I weight approximately " + this.weight + ".");
    }
 }
+
+
+
 
 //Array for ethncity
 var nationality = [
