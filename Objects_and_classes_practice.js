@@ -26,9 +26,6 @@ Human.prototype = {
    }
 }
 
-
-
-
 //Array for ethncity
 var nationality = [
     "british",
