@@ -1,4 +1,6 @@
 JavaScriptOOP
 =============
 
-Example object oriented programming in JavaScript
+Jamie Burton: 
+
+- Example object oriented programming in JavaScript
