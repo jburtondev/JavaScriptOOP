@@ -90,3 +90,33 @@ Jamie.sayWeight();
 if (Jamie.speak && Jamie.walk && Jamie.sayWeight){
     alert("All of our prototype methods ran smoothly.");
 }
+
+
+
+
+
+
+var Human = {
+	height: 0,
+	weight: 0
+}
+
+var Jamie = Object.create(Human); 
+	Jamie.height = 189 + "cm"; 
+	Jamie.weight = 90 + "kg";
+	Jamie.favSport = "Basketball";
+	Jamie.favFood = "Jamaican Ox Tail with Rice and Peas";
+	Jamie.career = "Web Developer";
+
+var Jamie_children = Object.create(Jamie);
+	
+var Hezekiah = Object.create(Jamie_children); //Jamie's son
+	Hezekiah.height = 230;
+	Hezekiah.weight = 105;
+	Hezekiah.favSport = "Tennis";
+	Hezekiah.favFood = "Jerk Chicken with Rice and Peas";
+	//He's taller, stronger, prefers tennis and doesn't share my favourite food. However he wants to be a "Web Developer". Amen!
+	
+var Ruby = Object.create(Jamie_children); //Jamie's daughter
+	Ruby.career = "Writer"; //Inherits all of my traits, however she wants to be a writer. I need to buy her a present for being such a good girl. 
+	
