@@ -1,13 +1,5 @@
-<html>
 
-<head></head>
-
-<body>
-
-<script>
-
-//Defining the food class
-var Human = function (nationality, eyeColor, height, weight, favSport, favFood, religion) {
+//Defining the food classvar Human = function (nationality, eyeColor, height, weight, favSport, favFood, religion) {
     this.nationality = nationality; 
     this.eyeColor = eyeColor;
     this.height = height; 
@@ -106,9 +98,3 @@ Jamie.sayWeight();
 if (Jamie.speak && Jamie.walk && Jamie.sayWeight){
     alert("All of our prototype methods ran smoothly.");
 }
-
-</script>
-
-</body>
-
-</html>
