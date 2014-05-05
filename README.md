@@ -3,4 +3,4 @@ JavaScript-OOP
 
 Jamie Burton: 
 
-- Example object oriented programming styles in JavaScript
+- An example of object oriented programming styles in JavaScript
