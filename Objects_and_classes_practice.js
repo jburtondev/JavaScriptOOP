@@ -1,7 +1,7 @@
 /*
-						The code below is an example
-						of javascript classes and prototype
-						based inheritance.
+	The code below is an example
+	of javascript classes and prototype
+	based inheritance.
 */ 
 
 //Constructor function for 'Human'
@@ -99,8 +99,8 @@ if (Jamie.speak && Jamie.walk && Jamie.sayWeight){
 
 
 /*
-						Below is a specific example
-						of prototype based inheritance.
+	Below is a specific example
+	of prototype based inheritance.
 */
 
 var Human = {
