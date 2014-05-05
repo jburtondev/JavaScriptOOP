@@ -1,6 +1,6 @@
-JavaScriptOOP
+JavaScript-OOP
 =============
 
 Jamie Burton: 
 
-- Example object oriented programming in JavaScript
+- Example object oriented programming styles in JavaScript
